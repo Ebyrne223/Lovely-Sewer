@@ -16,12 +16,17 @@
 
     /* turn paragraphs into colums */
     .face p {
-        columns: 2;
+        columns: 3;
+        
     }
 
     @page {
         /* reset page margins */
         margin: .25in;
+    }
+
+    figure {
+        
     }
 
 }

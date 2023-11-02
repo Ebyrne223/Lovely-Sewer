@@ -1,0 +1,18 @@
+@import "https://unpkg.com/open-props";
+
+main audio {
+    width: 1225px;
+}
+
+p {
+    text-align: center;
+    font-size: larger;
+    font-variant: small-caps;
+    background-color: aquamarine;
+    border-radius: 10%;
+    
+}
+
+html {
+    background-image: var(--gradient-4), var(--noise-2);
+}
