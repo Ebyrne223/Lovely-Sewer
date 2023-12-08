@@ -9,10 +9,92 @@ p {
     font-size: larger;
     font-variant: small-caps;
     background-color: aquamarine;
-    border-radius: 10%;
     
 }
 
 html {
     background-image: var(--gradient-4), var(--noise-2);
+}
+
+ #float:hover {
+    animation: var(--animation-ping); 
+    animation-duration: 5s;
+    
+}
+#bounce:hover {
+    animation: var(--animation-bounce);
+}
+#shake:hover{
+    animation:
+    var(--animation-fade-in-bloom),
+    var(--animation-shake-x);
+    animation-duration: 1s;
+    
+}
+#fadeout:hover{
+    animation:
+    var(--animation-scale-down),
+    var(--animation-fade-out);
+  animation-timing-function: var(--ease-elastic-in-out-4);
+  animation-duration: 5s;
+}
+#step1 {
+    animation: 
+    slide-in-right 20s var(--ease-bounce-1)
+    
+}
+#step2 {
+    animation: 
+    slide-in-left 20s var(--ease-bounce-2);
+}
+#step3 {
+    animation: 
+    slide-in-right 20s var(--ease-bounce-3);
+}
+#step4 {
+    animation:
+    slide-in-left 20s var(--ease-bounce-4);
+    
+}
+#step5 {
+    animation: 
+    slide-in-right 20s var(--ease-bounce-5);
+}
+
+#step6 {
+    animation: 
+    slide-in-left 20s var(--ease-bounce-1);
+}
+#step11 {
+    animation: 
+    slide-in-right 40s var(--ease-bounce-1)
+    
+}
+#step22 {
+    animation: 
+    slide-in-left 40s var(--ease-bounce-2);
+}
+#step33 {
+    animation: 
+    slide-in-right 40s var(--ease-bounce-3);
+}
+#step44 {
+    animation:
+    slide-in-left 40s var(--ease-bounce-4);
+    
+}
+#step55 {
+    animation: 
+    slide-in-right 40s var(--ease-bounce-5);
+}
+
+#step66 {
+    animation: 
+    slide-in-left 40s var(--ease-bounce-1);
+}
+#shake2 {
+    animation:
+    var(--animation-shake-y);
+    animation-duration: 30s;
+
 }
